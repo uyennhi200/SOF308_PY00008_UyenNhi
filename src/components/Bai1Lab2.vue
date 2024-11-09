@@ -1,6 +1,6 @@
 <template>
     <div class="container my-4 ">
-        <h2 class="text-center" style="color: red;">Bảng Thành Phần Dinh Dưỡng</h2>
+        <h2 class="text-center" >Bảng Thành Phần Dinh Dưỡng</h2>
         <table class="table table-bordered text-left">
             <thead class="table-warning" >
                 <tr class ="text-center">
@@ -75,5 +75,7 @@ name:"Bai1Lab2"
 </script>
 
 <style>
-
+h2{
+    color: red;
+}
 </style>

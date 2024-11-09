@@ -6,7 +6,12 @@ import Lab1PY00008 from '../components/Lab1.vue';
 import Bai1Lab2 from '../components/Bai1Lab2.vue';
 import Bai2Lab2 from '../components/Bai2Lab2.vue';
 import Bai3Lab2 from '../components/Bai3Lab2.vue';
-import Bai4Lab2 from '../components/Bai4Lab2.vue'
+import Bai4Lab2 from '../components/Bai4Lab2.vue';
+import Lab3Page from '../components/Lab3.vue';
+import Bai3Lab3 from '../components/Bai3Lab3.vue';
+import Bai4Lab3 from '../components/Bai4Lab3.vue'
+
+
 
 
 
@@ -18,7 +23,11 @@ const routes = [
     { path: '/bai1lab2', component: Bai1Lab2},
     { path: '/bai2lab2', component: Bai2Lab2},
     { path: '/bai3lab2', component: Bai3Lab2},
-    { path: '/bai4lab2', component: Bai4Lab2}
+    { path: '/bai4lab2', component: Bai4Lab2},
+    { path: '/lab3', component: Lab3Page},
+    { path: '/lab3bai3', component: Bai3Lab3},
+    { path: '/lab3bai4', component: Bai4Lab3}
+
 
 ];
 

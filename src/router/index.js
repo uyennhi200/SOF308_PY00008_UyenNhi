@@ -17,7 +17,16 @@ import Bai4Lab5 from '../components/Lab5/Bai4.vue';
 import Bai1Lab6 from '../components/Lab6/Bai1.vue';
 import Bai2Lab6 from '../components/Lab6/Bai2.vue';
 import Bai3Lab6 from '../components/Lab6/Bai3.vue';
-import Bai4Lab6 from '../components/Lab6/Bai4.vue'
+import Bai4Lab6 from '../components/Lab6/Bai4.vue';
+import Bai1Lab7 from '../components/Lab7/Bai1.vue';
+import Bai2Lab7 from '../components/Lab7/Bai2.vue';
+import Bai3Lab7 from '../components/Lab7/Bai3.vue';
+import Bai4Lab7 from '../components/Lab7/Bai4.vue'
+
+
+
+
+
 
 
 
@@ -42,7 +51,11 @@ const routes = [
     { path: '/lab6bai1', component: Bai1Lab6},
     { path: '/lab6bai2', component: Bai2Lab6},
     { path: '/lab6bai3', component: Bai3Lab6},
-    { path: '/lab6bai4', component: Bai4Lab6}
+    { path: '/lab6bai4', component: Bai4Lab6},
+    { path: '/lab7bai1', component: Bai1Lab7},
+    { path: '/lab7bai2', component: Bai2Lab7},
+    { path: '/lab7bai3', component: Bai3Lab7},
+    { path: '/lab7bai4', component: Bai4Lab7}
 
 
 ];
